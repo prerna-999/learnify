@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{margin: 0;padding: 0;box-sizing: border-box;}
+h1,h2,h3,h4,h5,h6,p{margin:0px;}
+ul,ol{list-style: none;padding: 0;}
+a{text-decoration: none;}
+
+.learnify-header .navbar{width: 100%; background-color: #553EEA; display: flex;padding: 0 ;}
+.navbar-brand{width: 200px;padding: 0;}
+.navbar-brand img {height: 100%; width: 100%;}
+.learnify-header .nav-link{ padding: 10px 29px !important; color: #fff; font-size: 14px;}
+.learnify-header .nav-link:hover{color: #f14d5d; text-decoration: underline #f14d5d 2px solid;}
+.btn-primary{background-color: #f14d5d; color: #fff; padding: 10px 20px; border-radius: 5px;}
+.btn-primary:hover{background-color: #120F2D;}
+
+/*************************Banner Block************************/
+.learnify-banner{background: url(../images/attractive-charismatic-redhead-caucasian-female-sit-floor-with-crossed-legs-holding-laptop-laps-w.jpg) center/cover;padding: 150px 0px;}
+.learnify-banner .banner-text{width: 40%;}
+.learnify-banner .banner-text span{color: #553EEA; font-size: 25px;}
+.learnify-banner .banner-text h1{font-weight: 600; padding: 13px 0px; font-size: 40px;}
+.learnify-banner .banner-text p{padding: 10px 0px; font-size: 18px;}
+.learnify-banner .banner-text .search-button input{padding: 15px ; border-radius: 5px; border: 1px solid #553EEA; width: 100%;}
+.learnify-banner .banner-text .banner-list{padding: 10px 0px;}
+.learnify-banner .banner-text .banner-list ul li{padding: 10px 0px; font-size: 15px;}
+.learnify-banner .banner-text .banner-list ul ::before{content:"\f00c"; font-family: fontawesome; color: #1DC295; padding: 10px;}
+
+/*-----------------Course Block-----------------*/
+.course-block{padding: 60px;}
+.course-block-text{text-align: center; padding:80px;}
+.course-block-text p {color: #553EEA;font-size: 20px; font-weight: bold;}
+.course-block-text h3 {font-size: 35px; font-weight: 600;padding: 10px;}
+.course-block .row .topic-box{display: flex; flex-direction: column; align-items: center; gap: 20px;}
+.course-block .row .topic-box .course-text{text-align: center}
+.course-block .col-md-3{box-shadow: 0px 0px 30px #dddddd5e; padding: 50px;}
+.course-block .row .col-md-3:hover{color: #fff; background-color:#120F2D ; border-radius: 5px;}
+.course-block .col-md-3 .topic-box .course-icon{color: #fff;}
+.course-block .course-btn .btn-primary{color: #fff; background-color: #f14d5d; padding: 13px 39px;}
+.course-block .course-btn{text-align: center; margin-top: 50px;}
+.course-block .course-btn .btn-primary:hover{background-color: #120F2D;}
+
+/*---------------------Popular Topic Block---------------*/
+.popular-topic-block{padding: 60px;}
+.popular-topic-block .popular-topic-text{padding: 20px;}
+.popular-topic-block .popular-topic-text p {color: #553EEA; font-weight: bold;}
+.popular-topic-block .popular-topic-text h3{font-size: 35px; font-weight: 600;}
+.popular-topic-block .popular-topic-btn{display: flex; flex-direction: row;justify-content: space-between; margin: 15px;}
+.popular-topic-block .popular-topic-btn .btn-primary{background-color: #553EEA; padding: 15px 45px;}
+.popular-topic-block .popular-topic-btn .btn-primary:hover{background-color: #120F2D;}
+.popular-topic-block .row{padding: 10px;}
+.popular-topic-box{border-radius: 5px;}
+.popular-topic-block .row .popular-topic-box .topic-image{height: 240px;}
+.popular-topic-block .row .popular-topic-box .topic-image img{width: 100%; height: 100%; border-radius: 5px;}
+.popular-topic-block .row .popular-topic-box .popular-topic-text .text-1::before{content: "\e473";font-family:fontawesome;color: #553EEA; font-size: 20px;margin-right: 10px;}
+.popular-topic-block .row .popular-topic-box .popular-topic-text .text-2::before{content: "\f017"; font-family: fontawesome; color:#553EEA; font-size: 20px;margin-right: 10px;}
+.popular-topic-block .row .popular-topic-box .popular-topic-text .text-1{color: #000; font-weight: 400;}
+.popular-topic-block .row .popular-topic-box .popular-topic-text .text-2{color: #000;font-weight: 400;}
+.popular-topic-block .row .popular-topic-box .popular-topic-text{justify-content: space-between;margin-top: 15px;}
+.popular-topic-block h4{margin: 30px 0px; font-weight: bold;padding: 15px;}
+.popular-topic-block .author-area .instructor-image{width: 50px; height: 50px;}
+.popular-topic-block .author-area .instructor-image img{border-radius: 50%; width: 100%; height: 100%;}
+.popular-topic-block .author-area .instructor-name p{margin: 15px;}
+.popular-topic-block .author-area{border-bottom: 1px solid #dddddd; padding: 15px;}
+.popular-topic-block .rating-box{justify-content: space-between;}
+.popular-topic-block .rating-box .rating-icon{margin-top: 15px;padding:20px;}
+.popular-topic-block .rating-box .detail-box p{color: #553EEA; margin-top: 15px; font-weight: 500;padding: 20px;}
+.popular-topic-block .row .popular-topic-box{box-shadow: 0px 0px 30px #dddddd5e;}
+.popular-topic-block .popular-course-btn .btn-primary{color: #fff; background-color: #f14d5d; padding: 13px 39px;}
+.popular-topic-block .popular-course-btn{text-align: center; margin-top: 80px;}
+.popular-topic-block .popular-course-btn .btn-primary:hover{background-color: #120F2D;}
+
+
+/*----------------------Strength Block----------------*/
+.strength-block{padding: 60px;}
+.strength-block .fun-fact-text{text-align: center;padding: 50px;}
+.strength-block .fun-fact-text p{color: #553EEA; font-weight:bold;}
+.strength-block .fun-fact-text h3{font-size: 35px; font-weight: 600;}
+.strength-block .row .strength-text{text-align: center; border-right: 1px solid #ddd; padding-right: 30px;}
+.strength-block .row .col-md-3:nth-last-child(1) .strength-text{border: none;}
+
+/*------------------Testimonial Block----------------*/
+.testimonial-block{padding: 60px;}
+.testimonial-block .testimonial-text{text-align: center;}
+.testimonial-block .testimonial-text p{color: #553EEA; font-weight: bold;}
+.testimonial-block .testimonial-text h3{font-size: 35px; font-weight: 600;}
+.testimonial-block .row .feedback-box .feedback-icon{color: #ffd700;padding: 20px;}
+.testimonial-block .row .feedback-box .feedback-text{padding: 20px;}
+.testimonial-block .feedback-box{box-shadow: 0px 0px 30px #dddddd5e;}
+.testimonial-block .row{padding: 30px;}
+.testimonial-block .author-area .instructor-image{width: 50px; height: 50px;}
+.testimonial-block .author-area .instructor-image img{border-radius: 50%; width: 100%; height: 100%;}
+.testimonial-block .author-area .instructor-name p{margin: 15px;}
+.testimonial-block .author-area{padding: 15px;}
+
+/*----------------------------Teacher Block---------------*/
+.teacher-block{padding: 60px;}
+.teacher-block .teacher-block-text{text-align: center;}
+.teacher-block .teacher-block-text p{color: #553EEA; font-weight: bold;}
+.teacher-block .teacher-block-text h3{font-size: 35px; font-weight: 600;}
+.teacher-block .row .teacher-box .teacher-image{height: 180px;}
+.teacher-block .row .teacher-box .teacher-image img{height: 100%; width: 100%; border-radius: 5px;}
+.teacher-block .row{padding: 30px;}
+.teacher-block .row .teacher-box{box-shadow: 0px 0px 30px #dddddd5e;border-radius: 5px;}
+.teacher-block .row .teacher-box .teacher-name{padding: 30px;}
+
+/*-----------------------Footer Block----------------------*/
+.learnify-footer{background-color: #120F2D;padding: 66px 0px;}
+.learnify-footer .links-footer{width: 25%; margin-bottom: 10px;}
+.learnify-footer .footer-main{display: flex; border-bottom: 1px solid #ddd;}
+.learnify-footer .links-footer h3{margin-bottom: 25px;font-weight: 300; color: #fff;}
+.learnify-footer .links-footer li {margin-bottom: 10px;}
+.learnify-footer .links-footer li a {color: #ffff;  font-size: 18px;}
+.learnify-footer .links-footer .location li{display: flex; gap: 15px; align-items: center;}
+.learnify-footer .links-footer .location li {color: #fff;}
+.learnify-footer .links-footer .location .fa-solid{color: #f14d5d;}
+.learnify-footer .learnify-rights{text-align: center; color: #fff; padding: 10px;}
+.learnify-footer .social-media{ display: flex; gap: 28px;font-size: 20px;padding: 10px 75px; margin: 12px 776px;}
+.learnify-footer .links-footer li a:hover{color: #f14d5d;}
+
+/*-----------Courses Page-------------------*/
+/*--------------course Banner------------------*/
+.course-banner{background: url(../images/7458557.jpg) center/cover; padding: 250px 0px;position: relative;}
+.course-banner .course-banner-text h3{font-size: 50px; color: #120F2D; font-weight:bold; position:absolute; left: 45%; bottom: 55%;}
+
+/*--------------Course-Category--------------*/
+.course-category .course-types{gap: 40px; margin-top: 50px;}
+.course-category .course-types .course-category-box .select-item{padding: 11px 37px;}
+.course-category .course-types .course-category-box .select-item::after{content:"\f078"; font-family:fontawesome;}
+.course-category .course-types .course-category-box p{margin-top: 10px;}
+
+/*------------------Centers-Page------------*/
+/*------------------Center-block------------*/
+.center-block h3{text-align: center; padding: 35px;}
+.center-block .center-search-bar{margin-left: 250px;}
+.center-block .center-search-bar input{padding: 15px ; border-radius: 5px; width: 70%;}
+.center-block .row{margin-top: 30px;}
+.center-block .row .city-info{box-shadow: 0px 0px 30px #dddddd5e; border-radius: 5px;}
+.center-block .row .city-info .city-image{width: 60px;height: 60px;}
+.center-block .row .city-info .city-image img{width: 100%; height: 100%; border-radius: 5px;}
+.center-block .row .city-info .city-name{padding: 20px; margin-left: 20px;}
+.center-block .row .button-btn{text-align: center; padding: 20px 0px;box-shadow: 0px 0px 30px #dddddd5e;}
+.center-block .row .btn-primary{color: #553EEA; background: #fff; font-weight: bold;}
+
+/*-----------------Offerblock-------------------*/
+.offer-block{padding:60px;}
+.offer-block h3{text-align: center; padding: 35px;}
+.offer-block .row .offer-box .offer-icon .fa-brands{border-radius: 50%; background: #feda75; font-size: 30px; color: #fff; padding: 10px;}
+.offer-block .row .offer-box .offer-icon .fa-java{background: #fa7e1e;}
+.offer-block .row .offer-box .offer-icon .fa-python{background: #4f5bd5;}
+.offer-block .row .offer-box .offer-text{padding: 20px 0px}
+.offer-block .row .offer-box{box-shadow: 0px 0px 30px #dddddd5e;padding: 25px;}
+.offer-block .offer-btn{text-align: center; margin-top: 60px;}
+
+/*-------------------Scholarship-block----------------*/
+.scholarship-block{background:rgb(254 218 117 / 36%);padding: 20px 0px; margin-bottom: 10px; background-image: url(../images/Trophy.22109881.svg); background-position: right; background-repeat: no-repeat;}
+.scholarship-block  h3{padding: 20px 0px;font-weight: bold;}
+.scholarship-block .scholarship-block-text{font-weight: bold; font-size: 20px; padding: 10px 0px;}
+.scholarship-block .scholar-main{display: flex; flex-direction: row; gap: 20px;padding: 20px 0px;}
+.scholarship-block .scholar-main .scholarship-box{background: #fff;border: 1px solid #000; border-radius: 5px;}
+.scholarship-block .scholar-main .scholarship-box .scholar-text{padding:10px; margin-top: -10px;}
+.scholarship-block .scholar-main .scholarship-box .scholar-text span{color: #6a3d01; font-size: 20px; font-weight: bold;}
+.scholarship-block .scholar-main .scholarship-box .scholar-icon .fa-solid{font-size: 25px;padding: 18px;}
+.scholarship-box .scholar-main  .scholarship-box  .scholar-text p{font-weight: 400;}
+.scholarship-block .scholar-btn .btn-primary{color: #fff; background-color: #000; padding: 13px 50px;}
+.scholarship-block .scholar-btn{padding: 23px 0px;}
+
+/*------------------------Contact us page--------------*/
+/*---------------------Contact us banner---------------*/
+.contact-us-banner{background: url(../images/12980932_5113470.jpg) center/cover; padding: 250px 0px;position: relative;}
+.contact-us-banner .contact-us-banner-text h3{font-size: 50px; color: #120F2D; font-weight: bold; position: absolute; left: 40%; bottom: 55%;}
+
+/*------------------Get in Touch Block-----------------*/
+.getin-touch-block{padding: 60px;}
+.getin-touch-block .getin-touch-text{text-align: center;}
+.getin-touch-block .getin-touch-text p{color: #553EEA; font-size: 20px; font-weight: bold;}
+.getin-touch-block .getin-touch-text h3{font-size: 35px; font-weight: 600;}
+.getin-touch-block .company-info{display: flex;justify-content: space-between; padding: 40px 0px;}
+.getin-touch-block .company-info .company-info-box{box-shadow: 0px 0px 30px #dddddd5e;padding: 25px; border-radius: 5px;}
+.getin-touch-block .company-info .company-info-box p{font-size: 18px; font-weight: 600; }
+.getin-touch-block .company-info .company-info-box a{color: #000;}
+.getin-touch-block .company-info .company-info-box:hover a{color: #fff;}
+.getin-touch-block .company-info .company-info-box .fa-solid{margin-right: 10px; font-size: 20px;}
+.getin-touch-block .company-info .company-info-box .fa-solid:hover{color: #fff;}
+.getin-touch-block .company-info .company-info-box .fa-building {color: #90ee90;}
+.getin-touch-block .company-info .company-info-box .fa-envelope{color: #0000ff;}
+.getin-touch-block .company-info .company-info-box .fa-phone{color: #ffD700;}
+.getin-touch-block .company-info .company-info-box:hover{background-color: #120F2D; color: #fff;}
+
+/*----------------------------Query Block------------------------*/
+.query-block{padding-bottom: 30px;}
+.query-block .row .query-block-image{width: 100%; height: 500px;}
+.query-block .row .query-block-image img{width: 100%; height: 100%;}
+.contact-us-form .notice-title{background-color:#120F2D; color: #fff;}
+.contact-us-form .notice-title{padding: 15px 10px;}
+.contact-us-form .notice-title .fa-solid{float: right; background: #f7d700; font-size:35px;padding: 10px 10px; color: #000; margin-top: -22px;}
+.contact-us-form .form-block{background-color: #120F2D; padding: 10px ;}
+.contact-us-form .form-feild{margin-bottom: 10px;}
+.contact-us-form .form-feild input{padding: 10px; width: 100%;}
+.contact-us-form .form-feild select{padding: 10px; width: 100%;}
+.contact-us-form .form-feild textarea{width: 100%;}
+.contact-us-form .submit-btn{background-color: #f7d700; color: #000; width: 30%; border: none;margin: 10px 0 30px; font-weight: 700; padding: 12px 0px;}
+.contact-us-form .submit-btn a{text-align: center; color: #000; padding: 10px 15px;}
+.contact-us-form .submit-btn a::before{content:"\f1d8";font-family:fontawesome; margin-right: 10px; font-size: 18px;}
+.contact-us-form .submit-btn:hover{background-color: #f14d5d; color: #fff}
+.contact-us-form .submit-btn:hover a{color: #fff;}
+
+/*---------------------------About us Page-----------------*/
+/*---------------------------About Us Banner--------------*/
+.about-us-banner{background: url(../images/10032884.jpg) center/cover; padding: 250px 0px; position: relative;}
+.about-us-banner .about-banner-text h3{font-size: 50px; font-weight: bold; color: #000; text-align: center; position: absolute; left: 43%; bottom: 55%;}
+
+/*-----------------------Our Mission Block--------------*/
+.our-mission-block{padding: 60px;}
+.our-mission-block .row .our-story{padding: 100px 0px;}
+.our-mission-block .row .our-story p{color: #553EEA; font-size: 20px; font-weight: bold;}
+.our-mission-block .row .our-story h3{font-size: 35px; font-weight: 600; padding: 20px 0px;}
+.our-mission-block .row .our-story span{font-weight: 500;padding: 10px 0px;}
+.our-mission-block .row .our-story-image{width: 100%; height: 400px;}
+.our-mission-block .row .our-story-image img{width: 100%; height: 100%;}
+
+/*-------------------------Career Block-----------------*/
+.career-block{padding: 60px;}
+.career-block .row .instructor-box{background: #f14d5d; padding: 40px 25px; border-radius: 5px;}
+.career-block .row .instructor-box p{color: #f5cc00; font-size: 20px; font-weight: bold; padding: 10px 0px;}
+.career-block .row .instructor-box h3{color: #fff; padding: 10px 0px;}
+.career-block .row .instructor-box span{color: #fff; padding: 10px 0px;}
+.career-block .row .instructor-box .btn-box{padding: 12px 0px; margin-top: 15px;}
+.career-block .row .instructor-box .btn-box a{color: #fff; padding: 10px 45px;background-color: #120F2D;border-radius: 5px;}
+.career-block .row .instructor-box .btn-box a:hover{background-color:#1dc295;}
+
+.career-block .row .career-box{background: #2878eb; padding: 40px 25px; border-radius: 5px;}
+.career-block .row .career-box p{color: #f5cc00; font-size: 20px; font-weight: bold; padding: 10px 0px;}
+.career-block .row .career-box h3{color: #fff; padding: 10px 0px;}
+.career-block .row .career-box span{color: #fff; padding: 10px 0px;}
+.career-block .row .career-box .btn-box{padding: 12px 0px; margin-top: 15px;}
+.career-block .row .career-box .btn-box a{color: #fff; padding: 10px 45px;background-color: #f14d5d;border-radius: 5px; }
+.career-block .row .career-box .btn-box a:hover{background-color: #120F2D;}
+
+
+
